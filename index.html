@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="main.css">
+  <title>slider выбора текста и фона</title>
+</head>
+<body>
+  <fieldset>
+    <legend>Select:</legend>
+    <label for="radio-1">color</label>
+    <input type="radio" name="color" id="radio-1">
+    <label for="radio-2">backgroundColor</label>
+    <input type="radio" name="color" id="radio-2" checked>
+  </fieldset>
+
+  <div class="main-block">
+    <div class="main-slider-block">
+      <div class="slider-block red"></div>
+      <div class="slider-block green"></div>
+      <div class="slider-block blue"></div>
+    </div>
+
+    <div id="text-block" class="ui-widget-content ui-corner-all">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Veniam earum repudiandae quasi autem facere rem ipsam voluptatem nihil vel, 
+      similique asperiores dignissimos sequi fuga magni a mollitia, non quidem magnam!
+    </div>
+  </div>
+
+
+  <script src="main.js"></script> 
+</body>
+</html>
